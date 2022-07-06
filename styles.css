@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  margin: auto;
+  
   padding: 0;
   box-sizing: inherit;
 }
@@ -60,12 +60,13 @@ html {
 
 .navbar ul {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 .navbar li {
   display: inline;
+  margin-left: 3%;
 }
 
 h1 {
@@ -143,4 +144,11 @@ h2 {
 
 .footer li {
   display: inline;
+}
+.cara_left{
+  padding-left: 16%;
+}
+.search_bar{
+  padding-left: 15%;
+  margin-bottom: 10px;
 }
